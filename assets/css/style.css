@@ -5,3 +5,53 @@
     box-sizing: border-box;
 
 }
+
+.debug{
+
+    background-color: #ff0000;
+
+}
+
+body{
+
+    max-width: 1152px;
+    height: 100vh;
+}
+
+.container{
+  width:100vw;
+  margin: auto;
+  background-color: #000000;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+
+}
+
+#pic_container{
+
+    height: 80%;
+    width: 90%;
+    border: 2px solid black;
+    background-color: #ff0000;
+    margin: 0 auto;
+    
+}
+
+.bar_container{
+
+    height: 10vh;
+    width: 100vw;
+    background-color: blue;
+}
+
+.picture{
+
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    background-color: #ff0000;
+    
+
+
+}
