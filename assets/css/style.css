@@ -6,11 +6,7 @@
 
 }
 
-.debug{
-
-    background-color: #ff0000;
-
-}
+/* default set */
 
 body{
 
@@ -18,6 +14,8 @@ body{
     height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
+
+/* body structure */
 
 .container{
 
@@ -142,6 +140,18 @@ body{
     font-size: 25px;
 }
 
+#arrow{
+
+    
+    position: absolute;
+    left: 64px;
+    top: 36px;
+    font-size: 10px;
+    
+
+}
+
+
 #end_meeting{
 
     height: 100%;
@@ -155,7 +165,7 @@ body{
 
 #end_meet{
 
-    color: #a5312f;
+    color: #c4211e;
     margin: auto;
     font-size: 14px;
     font-weight: bolder;
