@@ -35,6 +35,21 @@ body{
     border: 2px solid black;
     background-color: #ff0000;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+
+
+.picture{
+
+    height: 100px;
+    /* width: 50px; */
+    border: 2px solid black;
+    background-color: #ff0000;
+    width: calc(100% / 12 * 4);
+    padding: 1rem;
     
 }
 
@@ -43,15 +58,4 @@ body{
     height: 10vh;
     width: 100vw;
     background-color: blue;
-}
-
-.picture{
-
-    height: 50px;
-    width: 50px;
-    border: 2px solid black;
-    background-color: #ff0000;
-    
-
-
 }
