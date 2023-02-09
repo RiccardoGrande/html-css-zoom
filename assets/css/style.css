@@ -71,4 +71,41 @@ body{
     height: 10vh;
     width: 100vw;
     background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call_set{
+
+    height: 100%;
+    width: 160px;
+    background-color: #ffffff;
+    display: flex;
+
+}
+
+#microphone_set, #video_set{
+
+    height: 100%;
+    width: 80px;
+    border: 2px solid black;
+    background-color: #ff0000;
+}
+
+#setting_zoom{
+
+    height: 100%;
+    width: 500px;
+    border: 2px solid black;
+    background-color: #ff0000;
+
+}
+
+#end_meeting{
+
+    height: 100%;
+    width: 100px;
+    border: 2px solid black;
+    background-color: #ff0000;
+
 }
