@@ -53,7 +53,7 @@ body{
 
 #pic_container{
 
-    height: 85%;
+    height: 80%;
     width: 90%;
     border: 2px solid black;
     margin: 0 auto;
@@ -130,6 +130,7 @@ body{
     font-size: 12px;
     align-items: center;
     
+    
 
 
 }
@@ -141,6 +142,7 @@ body{
     align-items: center;
     font-size: 10px;
     padding: 5px;
+    position: relative;
     
 }
 
@@ -152,7 +154,9 @@ body{
 
 #arrow{
 
-    
+    position: absolute;
+    right: -11px;
+    top: 16px;
     font-size: 10px;
     
 
