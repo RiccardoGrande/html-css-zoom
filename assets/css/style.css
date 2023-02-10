@@ -37,15 +37,16 @@ body{
     right: 10px;
     font-size: 12px;
     color: white;
-    margin: auto;
+    margin: 5px auto;
 
 }
 
 #view, #expand, .name{
 
     background-color: #83828287;
-    padding: 2px;
+    padding: 5px;
     border-radius: 5px;
+    margin: 2px;
 }
 
 
@@ -106,7 +107,7 @@ body{
 .icon_container{
 
     height: 100%;
-    width: 80px;
+    width: 8  0px;
     display: flex;
     flex-direction: column;
     color: white;
@@ -130,6 +131,9 @@ body{
     position: absolute;
     bottom: 0;
     left: 15px;
+    font-size: 10px;
+    align-items: center;
+    text-align: end;
 }
 
 #icon{
