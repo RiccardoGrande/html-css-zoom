@@ -102,6 +102,7 @@ body{
     height: 100%;
     width: 160px;
     display: flex;
+    align-items: center;
 
 }
 
@@ -137,14 +138,14 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 10px;
+    font-size: 9px;
     
 }
 
 #icon{
 
     
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #arrow{
